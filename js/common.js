@@ -105,7 +105,7 @@ function renderPage() {
 //////////////////////////////////////////////
 /////////////////////////////////////////////
 
-var componentHeader = new Component({parent: 'header', url: './../img/logo.png', title: 'Рога и Копыта'}),
+var componentHeader = new Component({parent: 'header', url: './img/logo.png', title: 'Рога и Копыта'}),
     componentMenu = new Component({parent: 'nav'}),
     componentArticles = new Component({parent: 'main'}),
     componentFooter = new Component({parent: 'footer', text: '&#169; Копирайты'}),
